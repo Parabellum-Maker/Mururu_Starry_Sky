@@ -1,7 +1,7 @@
 final int N = 1024 * 10; //Number of stars
 final int REF = 1024;    //Base Resolution. REF x REF pixel
 final int MAGNI = 4;     //Magnification
-final int MAX_SIZE = 10; //
+final int MAX_SIZE = 10; //Maximum star size
 
 void settings() {
   //Screen Settings
