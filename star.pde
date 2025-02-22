@@ -29,10 +29,6 @@ void setup () {
     type[i] = int(random(0, c.length));
   }
 
-  for (int i  =0; i < N; i++) {
-    fill(c[type[i]]);
-    ellipse(x[i], y[i], size[i], size[i]);
-  }
   //No outlines
   noStroke();
   
